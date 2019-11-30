@@ -4,11 +4,9 @@ from PIL import Image
 
 def Round(num):
     res = round(num)
-    if(res > num):
+    if(res > num and num - int(num) == 0.5):
         res -= 1
     return res
-
-
 
 def NN_interpolation(image, scale):
     image = np.array(image)
@@ -16,7 +14,7 @@ def NN_interpolation(image, scale):
     new_height = Round(image.shape[1] * scale);
     new_shape = image.shape[2];
 
-    scale = image.shape[0] / new_width;
+    scale = 1 / scale;
     newImage = np.zeros((new_width, new_height, new_shape), dtype=np.uint8)
     for i in range(newImage.shape[0]):
         for j in range(newImage.shape[1]):
