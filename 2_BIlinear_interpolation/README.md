@@ -24,7 +24,8 @@ interpolation_AB = image[integral_i, integral_j]        * (1.0 - fraction_i) + i
             interpolation_CD = image[integral_i, integral_j + 1]    * (1.0 - fraction_i) + image[integral_i + 1, integral_j + 1]    * fraction_i
             Final = interpolation_AB * (1.0 - fraction_j) + interpolation_CD * fraction_j
 ```
-对 144*144 的图像进行 * 10 放大，效率为：21.15291166305542s
+对 144\*144 的图像进行 * 10 放大，效率为：21.15291166305542s
+
 2. 直接计算
 ![code2](code2.png)
 ```python
