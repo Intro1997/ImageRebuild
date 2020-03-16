@@ -7,9 +7,13 @@
 &emsp;&emsp;两种情况均进行 2 倍分辨率放大
 #### 1. real-image 情况：
 本论文代码运行结果：
+
 ![img_1_Mine.png](img/img_1_Mine.png)
+
 ZSSR 代码运行结果：
+
 ![img_1_source.png](img/img_1_source.png)
+
 #### 2. kernel-image 情况：
 本论文代码运行结果：
 
@@ -18,6 +22,7 @@ ZSSR 代码运行结果：
 ZSSR 代码运行结果：
 
 ![img_2_source.png](img/img_2_source.png)
+
 ### 代码运行
 &emsp;&emsp;执行 code 文件夹下的 ZSSR.py 文件，修改 
 ```python
