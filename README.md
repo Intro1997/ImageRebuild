@@ -1,8 +1,22 @@
 ### 描述
-&emsp;&emsp;毕业设计课题选了基于深度学习的图像重建，想在这里把大部分图形重建的算法记录在这里。学习路线在[这里](https://blog.csdn.net/gwplovekimi/article/details/83041627)。由于我目前定下来的方向是图形学，所以我尽可能做完上面文章中的每个方法。选这个毕业设计也是想着为之后要学习的光线追踪去噪提供一种（或多种）解决办法。未来可能会更新用 OpenGL(C++) 实现的代码。
+&emsp;&emsp;毕业设计课题选了基于深度学习的图像重建，想在这里把大部分图形重建的算法记录在这里。包括下述内容：
+1. 最邻近插值法
+2. 双线性插值法
+3. 两种评估方法：PSNR 和 SSIM
+4. 三次插值法
+5. Coursera 吴恩达深度学习笔记（包括第 1，2，4 章，第四章只学完了第一周课程）
+6. "Zero-Shot” Super-Resolution using Deep Internal Learning 论文翻译、笔记以及代码复现
 ### 编程语言
 &emsp;&emsp;Python
-### 目前使用的库
-&emsp;&emsp;1. numpy
-&emsp;&emsp;2. matplotlib
-&emsp;&emsp;3. PIL（Pillow）
+### 使用的库
+1. numpy
+2. matplotlib
+3. PIL（Pillow）
+4. TensorFlow 1.15.2
+5. scipy
+6. time
+7. iamgeio
+8. os
+9. sys
+10. cv2
+11. random
